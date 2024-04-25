@@ -1,12 +1,12 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import TipList from "./components/TipList";
 import About from "./pages/About";
 import Dashboard from "./pages/Dashboard";
 import TipDetailPage from "./pages/TipDetailPage";
 import NotFound from "./pages/NotFound";
 import { Routes, Route } from "react-router-dom";
+import AddTip from "./pages/AddTip";
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
         {/* the : is already a react router to use URL parameter dynamically */}
         {/* <Route path="/tips/:tipId" element={<TipDetailPage />} /> */}
         <Route path="/tips/:tipId" element={<TipDetailPage />} />
+        <Route path="/addTip" element={<AddTip />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

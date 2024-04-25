@@ -12,27 +12,9 @@ function TipCard(props) {
   //   "description": "Explore the vibrant street art culture in Berlin, known for its colorful murals, graffiti, and urban art installations.",
   //   "location": "Lorem Ipsum"
 
-  //   return (
-  //     // <div className="RecipeCard">
-  //     //   {/* old implementation */}
-  //     //  <div className="oldCard">
-  //     //     <h3>{tip.name}</h3>
-  //     //      <p>Calories: {recipe.calories}</p>
-  //     //      <p>Servings: {recipe.servings}</p>
-  //     //       <div className="imageContainer">
-  //     //         <img src={recipe.image} alt={recipe.name + "image"} />
-  //     //       </div>
-  //     //   <button onClick={() => clickToDelete(props.id)} className="btn-delete">
-  //     //     Delete
-  //     //   </button>
-  //     // </div>
-  //   );
-  // }
-
-  //new card with Tailwind
   return (
-    <div className="TipCard">
-      <div className="max-w-sm bg-gray-900 border-2 border-pink-400 rounded-lg shadow dark:bg-gray-900 dark:border-pink-400 mt-20">
+    <div className="TipCard mt-8">
+      <div className="max-w-sm bg-gray-900 border-2 border-pink-400 rounded-lg shadow dark:bg-gray-900 dark:border-pink-400">
         <Link to={`/tips/${tip.id}`} key={tip.id}>
           <img
             className="rounded-t-lg"

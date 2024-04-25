@@ -7,6 +7,7 @@ import TipDetailPage from "./pages/TipDetailPage";
 import NotFound from "./pages/NotFound";
 import { Routes, Route } from "react-router-dom";
 import AddTip from "./pages/AddTip";
+import tipsData from "./tips-data.json";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Route path="/about" element={<About />} />
         {/* the : is already a react router to use URL parameter dynamically */}
         {/* <Route path="/tips/:tipId" element={<TipDetailPage />} /> */}
-        <Route path="/tips/:tipId" element={<TipDetailPage />} />
+        <Route path="/tips/:tipId" element={<TipDetailPage />} tip={tipsData} />
         <Route path="/addTip" element={<AddTip />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

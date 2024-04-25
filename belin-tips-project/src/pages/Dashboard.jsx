@@ -12,7 +12,7 @@ import TipList from "../components/TipList";
 
 function Dashboard() {
   return (
-    <div className="dashboardContainer">
+    <div className="dashboardContainer mt-10 p-2">
       <TipList />
     </div>
   );

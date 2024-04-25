@@ -1,7 +1,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import ItemList from "./components/TipList";
+import TipList from "./components/TipList";
 import About from "./pages/About";
 import Dashboard from "./pages/Dashboard";
 import TipDetailPage from "./pages/TipDetailPage";
@@ -17,7 +17,7 @@ function App() {
         <Route path="/about" element={<About />} />
         {/* the : is already a react router to use URL parameter dynamically */}
         {/* <Route path="/tips/:tipId" element={<TipDetailPage />} /> */}
-        <Route path="/tips/" element={<TipDetailPage />} />
+        <Route path="/tips/:tipId" element={<TipDetailPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

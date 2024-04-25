@@ -1,7 +1,12 @@
 import React from "react";
+import TipList from "../components/TipList";
 
 function Dashboard() {
-  return <div>Dashboard - This is the home page with items list</div>;
+  return (
+    <div className="dashboardContainer">
+      <TipList />
+    </div>
+  );
 }
 
 export default Dashboard;

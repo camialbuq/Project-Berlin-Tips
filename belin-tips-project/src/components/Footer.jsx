@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div className="Footer">
-      <footer className="fixed bottom-0 left-0 z-20 w-full p-3 bg-gray-800 border-t border-gray-800 shadow md:flex md:items-center md:justify-between md:p-4 dark:bg-gray-800 dark:border-gray-800">
+      <footer className="fixed bottom-0 left-0 z-50 w-full p-3 bg-gray-800 border-t border-gray-800 shadow md:flex md:items-center md:justify-between md:p-4 dark:bg-gray-800 dark:border-gray-800">
         <span className="text-sm text-gray-200 sm:text-center dark:text-gray-200">
           © 2024{" "}
           <a

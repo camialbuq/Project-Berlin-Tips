@@ -17,7 +17,7 @@ function TipList() {
 
   return (
     <div className="tipsContainer">
-      <div class="h-full flex w-full justify-center items-center dark:bg-gray-100 p-2 mb-10">
+      <div class="h-full z-0 flex w-full justify-center items-center dark:bg-gray-100 p-2 mb-10">
         <div class="grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-4 md:p-2 xl:p-6 mb-10">
           {tips &&
             tips.map((tip) => {

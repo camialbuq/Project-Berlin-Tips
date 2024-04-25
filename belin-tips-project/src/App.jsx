@@ -10,7 +10,7 @@ import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div classNameName="App">
+    <div className="App">
       <Navbar />
       <Routes>
         <Route path="/" element={<Dashboard />} />

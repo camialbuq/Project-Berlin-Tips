@@ -11,18 +11,22 @@ function About() {
               Hey, "du"...!
             </h1>
             <p className="mt-4 text-xl text-gray-500">
-              Here you can find both touristic and also cool things to do in
-              Berlin. Try your best to actually get to know this city, skip club
-              queues and take any u-bahn line while smoking your legal joint.
+              Here you can find both touristic and cool things to do in Berlin.
+              Try your best to actually get to know this city, sit naked at the
+              lake, and take any u-bahn line without getting lost. All that
+              while smoking your legal joint.
             </p>
             <h3 className="font text-2xl font-bold tracking-tight text-pink-500 sm:text-2xl mt-10">
-              I am Cami Albuquerque, brazilian web developer living in Berlin.
+              I am Cami Albuquerque, brazilian junior web developer living in
+              Berlin.
             </h3>
             <p className="mt-4 text-xl text-gray-500">
-              This is a single user application built with React. It uses{" "}
+              This is a single user application project built with React.
+              <br /> It uses{" "}
               <span className="text-orange-500 font-bold">
                 html, TailwindCSS and Javascript.
               </span>{" "}
+              <br />
               Here I have combined two passions: coding and travelling in a
               simple, fun and easy to read webapp.
             </p>
@@ -39,7 +43,7 @@ function About() {
               aria-hidden="true"
               className="pointer-events-none ml-30 lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl mt-10"
             >
-              <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
+              <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/3 lg:-translate-y-1/2 lg:translate-x-8">
                 <div className="flex items-center space-x-6 lg:space-x-8">
                   <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                     <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
@@ -59,14 +63,14 @@ function About() {
                   <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                     <div className="h-64 w-44 overflow-hidden rounded-lg">
                       <img
-                        src="https://c.tenor.com/zMWompBbXZAAAAAC/tenor.gif"
+                        src="https://c.tenor.com/iN3oRYGa-HIAAAAC/tenor.gif"
                         alt=""
                         className="h-full w-full object-cover object-center"
                       />
                     </div>
                     <div className="h-64 w-44 overflow-hidden rounded-lg">
                       <img
-                        src="https://c.tenor.com/iN3oRYGa-HIAAAAC/tenor.gif"
+                        src="https://c.tenor.com/zMWompBbXZAAAAAC/tenor.gif"
                         alt=""
                         className="h-full w-full object-cover object-center"
                       />

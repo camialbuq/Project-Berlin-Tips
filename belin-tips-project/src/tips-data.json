@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "See Berlin's most famous landmarks by boat",
+    "image": "https://notanomadblog.com/images/travel/germany/berlin-boat-tour.jpg",
+    "description": "In good weather it's an amazing way to see Berlin's main sights and scenic neighborhoods. In colder weather, the boats have indoor seating as well. Put me on a boat and put a Bier in my hand, and it's all good.",
+    "location": "Lorem Ipsum"
+  },
+  {
+    "id": 2,
+    "title": "Explore the Berlin Wall",
+    "image": "https://images.myguide-cdn.com/content/1/large/top-berlin-wall-locations-503465.jpg",
+    "description": "Take a trip back in time and visit the remaining sections of the Berlin Wall, a powerful symbol of the Cold War era and the division of East and West Berlin.",
+    "location": "Lorem Ipsum"
+  },
+  {
+    "id": 3,
+    "title": "Visit Museum Island",
+    "image": "https://notanomadblog.com/wp-content/uploads/2017/07/berlin-1103044_1280.jpg",
+    "description": "Home to a cluster of world-renowned museums and significant historical treasures, Museum Island is an unmissable destination for art and history enthusiasts.",
+    "location": "Lorem Ipsum"
+  },
+  {
+    "id": 4,
+    "title": "Experience Berlin's Street Art",
+    "image": "image-url",
+    "description": "Explore the vibrant street art culture in Berlin, known for its colorful murals, graffiti, and urban art installations.",
+    "location": "Lorem Ipsum"
+  },
+  {
+    "id": 5,
+    "title": "Explore Tiergarten Park",
+    "image": "image-url",
+    "description": "Take a leisurely stroll through Berlin's largest and most popular park, featuring green spaces, walking paths, and iconic monuments.",
+    "location": "Lorem Ipsum"
+  },
+  {
+    "id": 6,
+    "title": "Discover Potsdamer Platz",
+    "image": "image-url",
+    "description": "An iconic public square and bustling intersection, Potsdamer Platz offers modern architecture, shopping, dining, and entertainment options.",
+    "location": "Lorem Ipsum"
+  }
+]

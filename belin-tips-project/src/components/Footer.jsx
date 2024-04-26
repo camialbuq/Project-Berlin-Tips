@@ -21,7 +21,7 @@ function Footer() {
               </a>
             </li>
           </ul> */}
-        <img src={berlinWall} className="fixed bottom-0 right-0 w-1/3" />
+        <img src={berlinWall} className="fixed bottom-0 right-0 w-1/4" />
       </footer>
     </div>
   );

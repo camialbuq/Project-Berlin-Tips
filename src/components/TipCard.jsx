@@ -1,12 +1,11 @@
 import React from "react";
-import deleteButton from "../assets/delete-button-svgrepo-com.svg";
 import { Link } from "react-router-dom";
 
 function TipCard(props) {
   const { tip, clickToDelete } = props; //these are the props we will take value from TipList.jsx
 
-  // each tip:
-  // "id": 4,
+  // each tip output json:
+  //   "id": 4,
   //   "title": "Experience Berlin's Street Art",
   //   "image": "image-url",
   //   "description": "Explore the vibrant street art culture in Berlin, known for its colorful murals, graffiti, and urban art installations.",

@@ -5,12 +5,6 @@ import berlinBear from "../assets/berlin-bear.png";
 import { useState } from "react";
 
 function Navbar() {
-  // this will be used to display the add form popup
-  const [seen, setSeen] = useState(false);
-  function togglePop() {
-    setSeen(!seen);
-  }
-
   return (
     <div className="NavBar">
       <nav className="bg-pink-700 dark:bg-pink-700 fixed w-full z-20 top-0 start-0 border-b border-gray-200">
@@ -57,3 +51,9 @@ function Navbar() {
 }
 
 export default Navbar;
+
+// this will be used to display the add form popup if needed, add before return
+// const [seen, setSeen] = useState(false);
+// function togglePop() {
+//   setSeen(!seen);
+// }

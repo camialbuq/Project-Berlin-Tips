@@ -39,12 +39,7 @@ function TipList() {
           {tips &&
             tips.map((tip) => {
               return (
-                <TipCard
-                  tip={tip}
-                  key={tip.id}
-                  // {...recipe}
-                  clickToDelete={deleteTip}
-                />
+                <TipCard tip={tip} key={tip.id} clickToDelete={deleteTip} />
                 // <Link to={`/tips/${tip.id}`} key={tip.id}>
                 //   <TipCard
                 //     tip={tip}
